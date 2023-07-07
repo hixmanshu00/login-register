@@ -5,7 +5,7 @@ body{
     align-items: center;
     min-height: 100vh;
     font-family: 'Jost', sans-serif;
-    background: linear-gradient(to bottom, #000300, #00df9a, #000300);
+    background: white;
     display: flex;
     text-transform: uppercase;
 }
@@ -62,13 +62,13 @@ button{
     margin: 10px auto;
     justify-content: center;
     display: block;
-    color: #000300;
-    background: #00df9a;
+    color: #4f46e5;
+    background: white;
+    border: #4f46e5 2px solid;
     font-size: 1em;
     font-weight: bold;
     margin-top: 20px;
     outline: none;
-    border: none;
     border-radius: 5px;
     transition: .2s ease-in;
     cursor: pointer;
@@ -76,8 +76,8 @@ button{
 }
 
 button:hover{
-    background: #f3f4f6;
-    color: #00df9a;
+    color: #fff;
+    background: #0f172a;
 }
 
 label:hover{
@@ -100,13 +100,14 @@ label:hover{
 
 
 .login button{
-    color: #00df9a;
-    background: #000300;
+    border: #4f46e5 2px solid;
+    color: #fff;
+    background: #0f172a;
 }
 
 .login button:hover{
-    color: #000300;
-    background: #00df9a;
+    color: #4f46e5;
+    background: transparent;
 }
 
 #switch:checked ~ .login{
